@@ -1,0 +1,155 @@
+/* about section start here  */
+
+.about {
+    padding: 20px 100px;
+    margin-top: 100px;
+}
+
+.about h2 {
+    text-align: center;
+    line-height: 1.3;
+    padding: 10px 0;
+    font-size: 30px;
+    border-bottom: 1px solid orange;
+    margin-bottom: 30px;
+}
+
+.about-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left1 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.about-left-img img {
+    border-radius: 5px;
+}
+
+.about-left-content {
+    padding: 0 30px;
+    text-align: justify;
+}
+
+.about-left-content h3 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.about-left-content p {
+    padding-bottom: 30px;
+    font-weight: 300;
+}
+
+.about-right {
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.about-right-contact {
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.about-right-contact h4 {
+    padding-bottom: 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-right-contact p.emergency-tel a {
+    font-size: 28px;
+    font-weight: 500;
+    color: orange;
+}
+
+.about-right-contact p {
+    padding-bottom: 24px;
+    font-weight: 300;
+}
+
+.phone-email p {
+    padding: 0;
+}
+
+.phone-email p a {
+    color: orange;
+}
+
+.contact-button {
+    margin-top: 30px;
+}
+
+.contact-button a {
+    color: orange;
+}
+
+
+/* why us section start here  */
+
+.commit-font i {
+    font-size: 24px;
+    color: green;
+}
+
+
+/* why slider  */
+
+
+/* responsive start here  */
+
+@media (max-width: 1300px) {
+    .about-wrap {
+        flex-direction: column;
+    }
+    .about-left1,
+    .about-right {
+        width: 100%;
+    }
+    .about-right-contact {
+        display: flex;
+        justify-content: space-between;
+    }
+    .for-queries {
+        margin-left: 10px;
+    }
+    .about-left-content.why-content,
+    .about-left-img.why-img {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 980px) {
+    .about-left1 {
+        flex-direction: column;
+    }
+    .about-left-img {
+        width: 90%;
+    }
+    .about-left-img img {
+        width: 100%;
+    }
+    .about-left-content {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 680px) {
+    .about {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 560px) {
+    .about-right-contact {
+        flex-direction: column;
+    }
+    .for-queries {
+        margin-left: 0;
+    }
+}
